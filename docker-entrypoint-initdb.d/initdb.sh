@@ -5,4 +5,4 @@ mkdir -p /tmp/data
 wget ${SAMPLE_URL} -O /tmp/data/dvdrental.zip
 unzip /tmp/data/dvdrental.zip -d /tmp/data
 pg_restore -U postgres -d dvdrental /tmp/data/dvdrental.tar
-rm /tmp/data/dvdrental.{zip,tar}
+rm -rf /tmp/data
