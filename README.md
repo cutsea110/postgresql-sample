@@ -1,3 +1,7 @@
+# postgresql sample_db
+
+ref.) https://www.postgresqltutorial.com/postgresql-sample-database/
+
 
 wget https://sp.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 unzip dvdrental.zip
