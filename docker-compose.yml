@@ -1,0 +1,12 @@
+version: '3'
+services:
+  db:
+    build: .
+    ports:
+      - 15432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: p@ssw0rd
+      POSTGRES_DB: dvdrental
+    volumes:
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
